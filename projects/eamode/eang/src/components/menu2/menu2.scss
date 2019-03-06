@@ -1,0 +1,42 @@
+.menu2 {
+  background-color: black;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: black;
+  color: white;
+  // height: 2.0em;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 2.0;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+li:active {
+  background: var(
+    --ea-menu-background-color-active,
+    var(--ea-background-color-active)
+  );
+  color: var(--ea-menu-color-active, var(--ea-text-color-light));
+}
+
+li:hover {
+  background: var(
+    --ea-background,
+    var(--ea-menu-background-hover, var(--ea-background-color-hover))
+  );
+  color: var(
+    --ea-color,
+    var(--ea-menu-color-hover, var(--ea-text-color-light))
+  );
+}

@@ -110,6 +110,14 @@ export class AppComponent implements OnInit {
             }
           },
           {
+            name: 'Menu2',
+            icon: 'ea-hamburger-menu',
+            iconStyle: 'ea-negative',
+            data: {
+              link: '/menu2'
+            }
+          },
+          {
             name: 'Layout',
             icon: 'ea-layout',
             data: {

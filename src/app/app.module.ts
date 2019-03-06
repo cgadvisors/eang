@@ -11,6 +11,7 @@ import {
   ThemePickerModule,
   MarkdownModule,
   MenuModule,
+  Menu2Module,
   TabsModule
 } from '@eamode/eang'
 
@@ -30,6 +31,7 @@ import { IconComponent } from './feature/icon/icon.component'
 import { VariablesComponent } from './variables/variables.component'
 import { GetStartedComponent } from './feature/get-started/get-started.component'
 import { MenuComponent } from './feature/menu/menu.component'
+import { Menu2Component } from './feature/menu2/menu2.component'
 import { LandingComponent } from './feature/landing/landing.component'
 import { ComponentsComponent } from './feature/components/components.component'
 import { TabsComponent } from './feature/tabs/tabs.component'
@@ -55,6 +57,7 @@ const routes: Routes = [
   { path: 'getting-started', component: GetStartedComponent },
   { path: 'tabs', component: TabsComponent },
   { path: 'menu', component: MenuComponent },
+  { path: 'menu2', component: Menu2Component },
   { path: 'variables', component: VariablesComponent },
   { path: 'features', component: HomeComponent },
   { path: 'utilities', component: UtilitiesComponent },
@@ -73,6 +76,7 @@ const routes: Routes = [
     IconComponent,
     VariablesComponent,
     MenuComponent,
+    Menu2Component,
     GetStartedComponent,
     LandingComponent,
     ComponentsComponent,
@@ -96,6 +100,7 @@ const routes: Routes = [
     MdcRippleModule,
     MdcRadioModule,
     MenuModule,
+    Menu2Module,
     TabsModule,
     RouterModule.forRoot(routes, { scrollPositionRestoration: 'top' })
   ],
